@@ -1,0 +1,35 @@
+- name: "siri"
+  age: 20
+  city: "New York"
+  mobile: 1234567890
+  addresses:
+    - flatnumber: 113
+      street: "5th Avenue"
+      city: "New York"
+      state: "NY"
+      pincode: 10001
+      type: "permanent"
+    - flatnumber: 456
+      street: "Madison Avenue"
+      city: "New York"
+      state: "NY"
+      pincode: 10002
+      type: "current"
+
+- name: "karthik"
+  age: 20
+  city: "New York"
+  mobile: 1234567890
+  addresses:
+    - flatnumber: 113
+      street: "5th Avenue"
+      city: "New York"
+      state: "NY"
+      pincode: 10001
+      type: "permanent"
+    - flatnumber: 456
+      street: "Madison Avenue"
+      city: "New York"
+      state: "NY"
+      pincode: 10002
+      type: "current"

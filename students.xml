@@ -1,0 +1,42 @@
+<students>
+    <student>
+        <FirstName>siri</FirstName>
+        <LastName>m</LastName>
+        <Age>27</Age>
+        <email>siri@example.com</email>
+        <addresses>
+            <permanentaddress>
+                <street>123 Main St</street>
+                <city>Springfield</city>
+                <state>IL</state>
+                <zip>62701</zip>
+            </permanentaddress>
+            <currentaddress>
+                <street>123 Main St</street>
+                <city>Springfield</city>
+                <state>IL</state>
+                <zip>62701</zip>
+            </currentaddress>
+        </addresses>    
+    </student>
+    <student>
+        <FirstName>karthik</FirstName>
+        <LastName>m</LastName>
+        <Age>27</Age>
+        <email>karthik@example.com</email>
+        <addresses>
+            <permanentaddress>
+                <street>123 Main St</street>
+                <city>Springfield</city>
+                <state>IL</state>
+                <zip>62701</zip>
+            </permanentaddress>
+            <currentaddress>
+                <street>123 Main St</street>
+                <city>Springfield</city>
+                <state>IL</state>
+                <zip>62701</zip>
+            </currentaddress>
+        </addresses>    
+    </student>
+</students>

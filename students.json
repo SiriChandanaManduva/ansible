@@ -1,0 +1,48 @@
+{
+    "students": [
+        {
+            "first_name": "siri",
+            "last_name": "m",
+             "age": 22,
+             "addresses": [
+                 {
+                    "type": "permanent",
+                    "street": "123 Main St",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip_code": "12345"
+                },
+                {
+                    "type": "current",
+                    "street": "456 Elm St",
+                    "city": "Othertown",
+                    "state": "NY",
+                    "zip_code": "67890"
+                }
+            ],
+            "skills": ["Python", "Ansible", "Docker"]
+        },
+        {
+            "first_name": "karthik",
+            "last_name": "m",
+             "age": 22,
+             "addresses": [
+                 {
+                    "type": "permanent",
+                    "street": "123 Main St",
+                    "city": "Anytown",
+                    "state": "CA",
+                    "zip_code": "12345"
+                },
+                {
+                    "type": "current",
+                    "street": "456 Elm St",
+                    "city": "Othertown",
+                    "state": "NY",
+                    "zip_code": "67890"
+                }
+            ],
+            "skills": ["Python", "Ansible", "Docker"]
+        }
+    ]
+}
