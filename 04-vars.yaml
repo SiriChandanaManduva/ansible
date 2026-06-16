@@ -6,6 +6,6 @@
     Duration: "2 months"
     trainer: "Karthik Reddy"
   tasks:
-  - name: print variables
-    debug:
-      msg: "Course: {{ course }} Durat
+    - name: print variables
+      debug:
+        msg: "Course: {{ course }} Duration: {{ Duration }} Trainer: {{ trainer }}"
