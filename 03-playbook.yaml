@@ -1,5 +1,5 @@
 - name: install and run nginx
-  hosts: webserver
+  hosts: 172.31.20.68
   become: true
   tasks:
     - name: install nginx
