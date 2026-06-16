@@ -1,0 +1,11 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  vars:
+    course: "DevOps"
+    Duration: "2 months"
+    trainer: "Karthik Reddy"
+  tasks:
+  - name: print variables
+    debug:
+      msg: "Course: {{ course }} Durat
