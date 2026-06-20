@@ -6,12 +6,12 @@
   vars_files:
     - course.yaml
   vars_prompt:
-  - name: NAME
+   - name: NAME
       prompt: "please enter name"
       private: false
   tasks:
-  - name: print name
-      vars:
-        NAME: " ansible from task "
-      ansible.buitin.debug:
-        msg: "Hi {{ NAME }}"
+   - name: print name
+    vars:
+      NAME: " ansible from task "
+    ansible.buitin.debug:
+      msg: "Hi {{ NAME }}"
