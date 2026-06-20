@@ -14,4 +14,4 @@
       vars:
         NAME: " ansible from task "
       ansible.buitin.debug:
-        msg: "Hi {{ Name}}"
+        msg: "Hi {{ NAME }}"
