@@ -26,3 +26,7 @@
           - "ID: {{ emp_id }}"
           - " SALARY: {{ salary }}"
           - "IS_ACTIVE: {{is_active}}"
+          - "SKILLS: {{skills}}"
+          - "DEPARTMENT: {{employee.department}}"
+          - "LOCATION: {{employee.location}}"
+          - "EXPERIENCE: {{employee.experience}}"
