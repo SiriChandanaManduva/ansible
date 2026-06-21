@@ -1,0 +1,28 @@
+- name: employee datatypes example
+  hosts: local
+  connection: local
+  vars:
+    emp_name: siri #string
+    emp_id: 125 #int
+    salary: 14000.50 #float
+    is_active: true #boolean
+
+    skills: #list
+      - ansible
+      - kubernetes
+      - docker
+      - terraform
+
+    employee: #dictionary
+      department: IT
+      location: Texas
+      experience: 7
+
+  tasks:
+    - name: print employee details
+      debug:
+        msg:
+          - "NAME: {{ emp_name }}"
+          - "ID: {{ emp_id }}"
+          - " SALARY: {{ salary }}"
+          - "IS_ACTIVE: {{is_active}}"
