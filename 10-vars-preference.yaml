@@ -1,3 +1,4 @@
+---
 - name: variable preference
   hosts: localhost
   connection: local
