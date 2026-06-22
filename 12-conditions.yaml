@@ -8,3 +8,5 @@
       debug:
         msg: "yes, it is live"
       when: Is_Live
+# when is_live is true it prints yes, it is live
+# when is_live is false it's skips
