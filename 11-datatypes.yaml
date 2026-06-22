@@ -21,7 +21,7 @@
   tasks:
     - name: print employee details
       debug:
-        msg:
+        msg: |
           - "NAME: {{ emp_name }}"
           - "ID: {{ emp_id }}"
           - " SALARY: {{ salary }}"
