@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    NUMBER: 5
+    NUMBER: 20
 
   tasks:
     - name: check number is greater than or not
