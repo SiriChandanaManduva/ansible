@@ -4,7 +4,7 @@
   vars:
     Is_Live: true
   tasks:
-    name: check live or not
-    debug:
-      msg: "yes, it is live"
-    when: Is_Live
+    - name: check live or not
+      debug:
+        msg: "yes, it is live"
+      when: Is_Live
