@@ -1,0 +1,10 @@
+- name: conditions example
+  hosts: local
+  connection: local
+  vars:
+    Is_Live: true
+  tasks:
+    name: check live or not
+    debug:
+      msg: "yes, it is live"
+    when: Is_Live
