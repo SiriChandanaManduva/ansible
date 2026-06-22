@@ -1,0 +1,11 @@
+- name: check number is greater than 10 0r not
+  hosts: local
+  connection: local
+  vars:
+    NUMBER: 20
+
+  tasks:
+    - name: check number is greater than or not
+      debug:
+        msg: "number is greater than 10"
+      when: "NUMBER > 10"
